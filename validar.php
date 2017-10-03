@@ -10,7 +10,7 @@ $resultado=mysqli_query($mysqli,$consulta);
 $filas=mysqli_num_rows($resultado);
 
 if ($filas>0){
-    header("location:menu.html");
+    header("location:menu.php");
 }
 else {
     echo "Error en la autenticacion";
